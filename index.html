@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film-Project-Advanced</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="./images/imdb-icon.png" class="imdb-icon" alt="imdb-icon">
+            <i class="fa-solid fa-bars"></i>
+            <p>Menu</p>
+            <form id="todo-form">
+                <input type="text" class="todo-input" placeholder="Type a movie name" required>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <img src="./images/imdb-pro.png" class="imdbPro-icon" alt="imdbPro-icon">
+            <hr style="margin-left: 22px; width: 31px; transform: rotate(90deg); margin-top: 2px;">
+            <div class="header-left-d-flex" style="display: flex; margin-left: -32px; align-items: center;">
+                <i class="fa-regular fa-bookmark"></i>
+                <p>Watchlist</p>
+                <p style="margin-left: 45px;">Sign in</p>
+                <p style='margin-left: 45px;'>En</p>
+                <i class="fa-solid fa-caret-down" style="margin-left: 10px;"></i>
+            </div>
+        </div>
+    </header>
+
+    <ul class="todo-list"></ul>
+    <script src="./index.js"></script>
+</body>
+
+</html>
